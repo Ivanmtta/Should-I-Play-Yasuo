@@ -8,7 +8,7 @@
 ### Technologies
 Full-Stack web application that uses:
 * Node.js and Express for the Back-End
-* HTML, CSS, JS and Boostrap 4 for the Front-End
+* HTML, CSS, JS and Bootstrap 4 for the Front-End
 * NeDB for the database.
 
 ### How it works?
