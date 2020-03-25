@@ -12,7 +12,7 @@ Full-Stack web application that uses:
 * NeDB for the database.
 
 ### How it works?
-* Using the previewsly extracted data from 1000 league games stored in the NeDB database
+* Using the previously extracted data from 1000 league games stored in the NeDB database
 * The application trains the classifier to calculate the probabilities for each champion
 * Once the user makes a selection, it uses that trained data to make a prediction
 * All of this using Bayes theorem
