@@ -1,0 +1,42 @@
+html{
+  overflow-y: scroll;
+}
+
+.modal-open{
+  padding-right: 0px !important;
+}
+
+.custom-image{
+  height: 90px; 
+  width:100%; 
+  object-fit: cover;
+  object-position: 0% 0%;
+  transition: opacity .3s linear;
+  animation: display 3s alternate infinite;
+}
+
+.custom-image:hover{
+  opacity: .5;
+  cursor: pointer;
+}
+
+.form-control{
+  font-size: 20px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.form-control:focus{
+  box-shadow: none;
+  background-color: white;
+  border: 1px solid black;
+}
+
+@keyframes display {
+  0%{
+    object-position: 0% 0%;
+  }
+  100%{
+    object-position: 0% 100%;
+  }
+}

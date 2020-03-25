@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Should I Play Yasuo?</title>
+  <link rel='stylesheet' href='./css/bootstrap.min.css'>
+  <link rel='stylesheet' href='./css/site.css'>
+  <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css'>
+</head>
+<body>
+  <div class='container mt-5'>
+    <div class='row'>
+      <div class='col-md-6 m-auto'>
+        <h2 class='text-center mb-5'><i class='fas fa-wind'></i> Should I Play Yasuo?</h2>
+      </div>
+    </div>
+    <div class='row'>
+      <!-- Left Panel - Search Bar -->
+      <div class='col-md-6'>
+        <div class='form-group'>
+          <input type='text' id='searchBar' class='form-control text-center' placeholder='Enter Champion Name' autocomplete='off'>
+        </div>
+        <div id='list'></div>
+      </div>
+      <!-- Right Panel - Champion Selection -->
+      <div id='selections' class='col-md-6 card card-body'>
+        <div id='submitButton' class='mx-auto'></div>
+        <div id='selectionList'></div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer - Copyright -->
+  <footer class='page-footer font-small p-5 m-5'>
+    <div class='footer-copyright text-center'>©2020,
+      <a href='https://ivanmtta.github.io/'> Ivan Mota</a>
+    </div>
+  </footer>
+  <!-- Modal - Results Window -->
+  <div class='modal fade' id='resultModal' tabindex='-1' role='dialog' aria-hidden='true'>
+    <div class='modal-dialog modal-dialog-centered' role='document'>
+      <div class='modal-content'>
+        <div class='modal-header'>
+          <h5 class='modal-title'>Should you play yasuo?</h5>
+        </div>
+        <div class='modal-body'>
+          <canvas id='results'></canvas>
+        </div>
+        <div class='modal-footer'>
+          <button type='button' class='btn btn-primary' data-dismiss='modal'>Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- JS Imports -->
+  <script src='https://kit.fontawesome.com/edbf71cd2b.js'></script>
+  <script src='https://code.jquery.com/jquery-3.4.1.slim.min.js'></script>
+  <script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+  <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'></script>
+  <script src='https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js'></script>
+  <script src='./js/site.js'></script>
+</body>
+</html>
