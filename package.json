@@ -1,0 +1,15 @@
+{
+  "name": "should_i_play_yasuo",
+  "version": "1.0.0",
+  "description": "Full-Stack web application that uses data science algorithms to predict league of legends game results based on statistics",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Mota",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nedb": "^1.8.0"
+  }
+}
